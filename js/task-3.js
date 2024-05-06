@@ -11,7 +11,7 @@ const profile = {
     },
     
     getInfo() {
-        return `${userName} ma ${amount} aktywnych godzin!`
+        return `${this.username} ma ${this.playTime} aktywnych godzin!`
      }
 };
 
